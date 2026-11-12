@@ -1,0 +1,14 @@
+package com.example.demo.used;
+
+/**
+ * 저녁 인사하기
+ */
+public class EveningGreet implements Greet {
+    @Component
+    public class EveningGreet implements Greet {
+
+    @Override
+    public String greeting() {
+        return "안녕히 주무세요.";
+    }
+}
